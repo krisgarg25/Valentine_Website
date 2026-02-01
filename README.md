@@ -21,7 +21,7 @@
 
 **Valentine Quest** is a fun, interactive, retro-themed digital experience designed to pop the big question in style. Built with the latest tech stack providing a nostalgic Windows 95/98 aesthetic, it takes the user on a playful journey through various "security checks" before delivering the final message.
 
-It's not just a website; it's a **quest for love**.
+It's not just a website it's a **quest for love**.
 
 ## 🚀 Features
 
