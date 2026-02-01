@@ -1,0 +1,117 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Space Mono", monospace;
+  --font-mono: "Space Mono", monospace;
+
+  --color-brutal-pink: #ff69b4;
+  --color-brutal-bg: #fff0f5;
+  
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-destructive: var(--destructive);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-popover: var(--popover);
+  --color-card: var(--card);
+
+  --radius-sm: 0rem;
+  --radius-md: 0rem;
+  --radius-lg: 0rem;
+  --radius-xl: 0rem;
+  --radius-2xl: 0rem;
+}
+
+:root {
+  --radius: 0rem;
+  /* Retro Pink & Black Theme */
+  --background: #fff0f5; /* Lavender Blush */
+  --foreground: #000000;
+
+  --card: #ffffff;
+  --card-foreground: #000000;
+
+  --popover: #ffffff;
+  --popover-foreground: #000000;
+
+  --primary: #ff69b4; /* Hot Pink */
+  --primary-foreground: #000000;
+
+  --secondary: #000000;
+  --secondary-foreground: #ffffff;
+
+  --muted: #f4f4f5;
+  --muted-foreground: #000000;
+
+  --accent: #ff1493; /* Deep Pink */
+  --accent-foreground: #ffffff;
+
+  --destructive: #ff0000;
+  --destructive-foreground: #ffffff;
+
+  --border: #000000;
+  --input: #ffffff;
+  --ring: #000000;
+}
+
+.dark {
+  /* Brutalist Dark Mode - Inverted */
+  --background: #000000;
+  --foreground: #ffffff;
+
+  --card: #1a1a1a;
+  --card-foreground: #ffffff;
+
+  --popover: #1a1a1a;
+  --popover-foreground: #ffffff;
+
+  --primary: #ff69b4;
+  --primary-foreground: #000000;
+
+  --secondary: #ffffff;
+  --secondary-foreground: #000000;
+
+  --muted: #27272a;
+  --muted-foreground: #a1a1aa;
+
+  --accent: #ff1493;
+  --accent-foreground: #ffffff;
+
+  --destructive: #ff0000;
+  --destructive-foreground: #ffffff;
+
+  --border: #ffffff;
+  --input: #1a1a1a;
+  --ring: #ffffff;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+    outline-color: var(--ring);
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .brutal-shadow {
+    box-shadow: 4px 4px 0px 0px var(--foreground);
+  }
+  .brutal-shadow-hover:hover {
+    box-shadow: 2px 2px 0px 0px var(--foreground);
+    transform: translate(2px, 2px);
+  }
+  .brutal-border {
+    border: 3px solid var(--border);
+  }
+}
