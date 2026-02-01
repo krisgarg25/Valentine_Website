@@ -29,7 +29,7 @@ We offer two distinct ways to pop the big question. Choose your fighter:
 | **Strategy:** Playful Nostalgia                                                                               | **Strategy:** Confusing Compliance                                                                               |
 | **Key Mechanic:** Runaway "No" Button                                                                         | **Key Mechanic:** Fake Invoice Trap                                                                              |
 | **For:** The Gamer / Geek                                                                                     | **For:** The Prankster                                                                                           |
-| <h3>[**Valentine Quest**](https://riddhi-lac.vercel.app)</h3>[**🟢 Live Preview**]<br>_(Retro 95 Experience)_ | <h3>[**The Subscription**]</h3>[**🟢 Live Preview**](https://mehak-five.vercel.app/)<br>_(Brutalist Experience)_ |
+| <h3>[**Valentine Quest**](https://riddhi-lac.vercel.app)</h3>[**🟢 Live Preview**]<br>_(Retro 95 Experience)_ | <h3>[**The Subscription**](https://mehak-five.vercel.app/)</h3>[**🟢 Live Preview**]<br>_(Brutalist Experience)_ |
 
 ---
 
